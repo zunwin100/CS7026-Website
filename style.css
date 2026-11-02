@@ -1,0 +1,197 @@
+/* Overall Page Style*/
+body {
+    background-color: rgb(253, 242, 220);
+    color: rgb(62, 18, 69);
+    font-family: "Courier New", Helvetica;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Headings */
+h1 {
+    color: rgb(62, 18, 69);
+    font-size: 36px;
+}
+
+h2 {
+    color: rgb(62, 18, 69);
+    font-size: 25px;
+}
+
+h3 {
+    color: rgb(24, 157, 161);
+}
+
+/* Logo and Navigation Bar*/
+.navigation {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 100%;
+    background-color: rgb(62, 18, 69);
+}
+
+.logo {
+    width: 55px;
+    height: auto;
+    margin: 10px 20px;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-links a {
+    background-color: rgb(24, 157, 161);
+    color: rgb(253, 242, 220);
+    padding: 12px;
+    margin: 5px;
+}
+
+/* Hover Navigation Links*/
+
+.nav-links a:hover {
+    background-color: rgb(253, 242, 220);
+    color: rgb(24, 157, 161);
+}
+
+/* Page Content Styling */
+.page-content {
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* Homepage */
+.home-content {
+    text-align: center;
+    margin: 40px;
+}
+
+.home-logo {
+    width: 350px;
+    height: auto;
+}
+
+.home-name {
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+/* Homepage Navigation Bar */
+.home-nav {
+    background-color: rgb(62, 18, 69);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Homepage Buttons */
+.button {
+    display: inline-block;
+    background-color: rgb(24, 157, 161);
+    color: rgb(253, 242, 220);
+    padding: 12px 20px;
+    margin: 10px;
+}
+
+/* Hover Buttons Homepage */
+.button:hover {
+    background-color: rgb(253, 242, 220);
+    color: rgb(24, 157, 161);
+}
+
+/* About Me Intro */
+.about-intro {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.profile-image {
+    width: 400px;
+    height: auto;
+}
+
+.about-text {
+    width: 100%;
+}
+
+/* CV/Resume */
+.resume {
+    background-color: #c7aecc;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.resume-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.resume-images img {
+    width: 100%;
+    height: auto;
+}
+
+/* Artwork List */
+.artwork-list {
+    background-color: #c7aecc;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.artwork-list li {
+    margin: 10px;
+}
+
+/* Artwork Sections */
+.artwork {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgb(253, 242, 220);
+}
+
+.artwork img {
+    width: 100%;
+    height: auto;
+}
+
+.artwork-text {
+    width: 100%;
+    align-content: center;
+}
+
+/* Contact Sections */
+.contact-section {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+.contact-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.contact-text {
+    width: 100%;
+}
+
+.contact-text a {
+    color: rgb(24, 157, 161);
+}
